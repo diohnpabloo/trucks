@@ -1,12 +1,10 @@
 import { Routes, Route } from "react-router"
-
-import { Home } from "../pages/home"
-
+import { Trucks } from "../pages/Trucks"
 
 export function TrucksRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Trucks />} />
         </Routes>
     )
 }

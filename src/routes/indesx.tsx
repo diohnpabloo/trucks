@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router"
-import { TrucksRoutes } from "./trucks-routes"
+import { TrucksRoutes } from "./TrucksRoutes"
 
 export function Routes() {
     return (
