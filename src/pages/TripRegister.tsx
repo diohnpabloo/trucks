@@ -39,7 +39,6 @@ export function TripRegister() {
     })
 
     async function handleFormTripSubmit(data: TripFormData) {
-        console.log("Form data:", data)
         try {
             setIsLoading(true)
             const parsedData = tripsRegisterFormSchema.parse(data)
@@ -130,7 +129,7 @@ export function TripRegister() {
                 )}
             />
 
-            <Button type="submit">Cadastrar viagem</Button>
+            <Button type="submit" isLoading={isLoading}>Cadastrar viagem</Button>
         </form>
     )
 }

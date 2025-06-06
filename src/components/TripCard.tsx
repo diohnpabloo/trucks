@@ -18,7 +18,7 @@ export function TripCard({ trip }: TripCardProps) {
     const kmEnd = parseFloat(trip.km_end)
     const kmTraveled = isNaN(kmEnd - kmStart) ? "N/A" : (kmEnd - kmStart).toFixed(2)
 
-    const formateDate = new Date(Number(trip.departure_date)).toLocaleDateString("pt-BR", {
+    const formateDate = new Date(trip.departure_date).toLocaleDateString("pt-BR", {
         year: 'numeric',
         month: '2-digit',
         day: '2-digit',
