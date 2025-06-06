@@ -1,5 +1,4 @@
-@import "tailwindcss/preflight";   /* Reset (ex-@tailwind base) */
-@import "tailwindcss/utilities";   /* Todas as classes utilitárias */
+@import "tailwindcss";
 
 
 @theme {

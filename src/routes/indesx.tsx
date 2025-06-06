@@ -1,10 +1,10 @@
 import { BrowserRouter } from "react-router"
-import { TrucksRoutes } from "./TrucksRoutes"
+import { AppRoutes } from "./trucksRoutes"
 
 export function Routes() {
     return (
         <BrowserRouter>
-            <TrucksRoutes />
+            <AppRoutes />
         </BrowserRouter>
     )
 }
